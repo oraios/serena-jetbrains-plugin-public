@@ -1,8 +1,11 @@
-# 2023.2.6 (unreleased)
+# 2023.2.6 (2026-01-11)
 
-* Add type hierarchy retrieval
+* New tool endpoints: type hierarchy retrieval (subtypes/supertypes) 
+* Add further retrieval options for symbols (quick info/signature, documentation)
 * Fix error message when symbol retrieval fails with non-unique symbol (report all symbol details)
 * Fix free socket search on macOS and potentially other platforms (caused BindException; must use same listening address throughout)
+* Differentiate between recoverable and non-recoverable exceptions, returning different status codes
+* Fix log tab in Serena tool window being closeable
 
 # 2023.2.5 (2025-12-27)
 
