@@ -1,3 +1,8 @@
+# 2023.2.7 (2026-01-12)
+
+* Fix: Name path computation & matching only considered overload indices at the leaf level
+* Fix: Name resolution for Rust impl blocks (name path was null)
+
 # 2023.2.6 (2026-01-11)
 
 * New tool endpoints: type hierarchy retrieval (subtypes/supertypes) 
