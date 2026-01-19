@@ -1,3 +1,11 @@
+# 2023.2.8 (2026-01-19)
+
+* Make the listen address configurable (in IDE settings / Tools / Serena)
+* Fix: Type hierarchy retrieval did not work for some languages, because
+  the hierarchy type was not explicitly selected (e.g. Kotlin)
+* Fix: Do not call file system refresh from the event dispatch thread (EDT).
+  This could cause the IDE's UI to freeze temporarily.
+
 # 2023.2.7 (2026-01-12)
 
 * Fix: Name path computation & matching only considered overload indices at the leaf level
