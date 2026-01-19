@@ -1,6 +1,7 @@
 # 2023.2.8 (2026-01-19)
 
 * Make the listen address configurable (in IDE settings / Tools / Serena)
+* Make file system synchronisation before tool execution configurable (in IDE settings / Tools / Serena)
 * Fix: Type hierarchy retrieval did not work for some languages, because
   the hierarchy type was not explicitly selected (e.g. Kotlin)
 * Fix: Do not call file system refresh from the event dispatch thread (EDT).
