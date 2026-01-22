@@ -1,3 +1,8 @@
+# 2023.2.9 (2026-01-22)
+
+* Improve name path matching logic: At any level, require overload index to match
+  only if it is specified in the matching expression
+
 # 2023.2.8 (2026-01-19)
 
 * Make the listen address configurable (in IDE settings / Tools / Serena)
