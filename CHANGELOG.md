@@ -1,3 +1,14 @@
+# 2023.2.10 (2026-02-18)
+
+* File symbol overview can now retrieve quick info (signature information)
+* Allow parallel requests
+* Make requests appear in the IDE's status bar, allowing cancellation
+* Extend range of compatible IDE versions to include 2026.1
+* Fix: Change the file system refresh approach once again in order to avoid execution on the event dispatch thread (EDT).
+  The earlier fix in 2023.2.8 was not effective in newer IDE versions. 
+* Fix: Retrieval of DART symbols and references (particularly methods)
+* Fix: Kotlin documentation/quick info retrieval (support target-based documentation API)
+
 # 2023.2.9 (2026-01-22)
 
 * Improve name path matching logic: At any level, require overload index to match
