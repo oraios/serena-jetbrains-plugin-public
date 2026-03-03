@@ -1,3 +1,7 @@
+# 2023.2.11 (2026-03-03)
+
+* Add configuration option "Open tool window at startup" (in IDE settings / Tools / Serena)
+
 # 2023.2.10 (2026-02-18)
 
 * File symbol overview can now retrieve quick info (signature information)
