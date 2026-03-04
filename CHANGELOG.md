@@ -1,3 +1,7 @@
+# 2023.2.12 (2026-03-04)
+
+* Mark CLion IDE as unsupported 
+
 # 2023.2.11 (2026-03-03)
 
 * Add configuration option "Open tool window at startup" (in IDE settings / Tools / Serena)
