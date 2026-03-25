@@ -1,3 +1,7 @@
+# 2023.2.13 (2026-03-25)
+
+* Ruby: Fix name path computation (duplication of path elements)
+
 # 2023.2.12 (2026-03-04)
 
 * Mark CLion IDE as unsupported 
