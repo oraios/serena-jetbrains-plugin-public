@@ -1,3 +1,10 @@
+# 2023.2.14 (2026-04-03)
+
+Major extensions, including several beta features
+
+* Rename can now be applied to files and directories
+* Support for the following new tools: Move, InlineSymbol, FindDefinition, FindImplementation, SafeDelete
+
 # 2023.2.13 (2026-03-25)
 
 * Ruby: Fix name path computation (duplication of path elements)
