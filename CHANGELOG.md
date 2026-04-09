@@ -1,3 +1,7 @@
+# 2023.2.15 (2026-04-09)
+
+* Find references: Return line number for context retrieval
+
 # 2023.2.14 (2026-04-03)
 
 Major extensions, including several beta features
