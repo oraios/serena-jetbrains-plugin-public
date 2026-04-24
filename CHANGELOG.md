@@ -1,13 +1,17 @@
+# 2023.2.16 (2026-04-23)
+
+* Support new tool: `Debug` (supports interactive debugging sessions via a persistent REPL)
+
 # 2023.2.15 (2026-04-09)
 
-* Find references: Return line number for context retrieval
+* `FindReferencingSymbols` improved: Return line number for client-side context retrieval
 
 # 2023.2.14 (2026-04-03)
 
 Major extensions, including several beta features
 
 * Rename can now be applied to files and directories
-* Support for the following new tools: Move, InlineSymbol, FindDefinition, FindImplementation, SafeDelete
+* Support the following new tools: `Move`, `InlineSymbol`, `FindDefinition`, `FindImplementation`, `SafeDelete`
 
 # 2023.2.13 (2026-03-25)
 
