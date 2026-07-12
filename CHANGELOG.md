@@ -1,3 +1,20 @@
+# 2023.3.1 (2026-07-12)
+
+* Changes to IDE version support:
+  * Add support for 2026.2
+  * New minimum version: 2023.3 (previously 2023.2)
+* Improve IDE readiness detection prior to task execution
+* `FindSymbol`: 
+    * Support searches using wildcards ("*")
+    * Fix: For some languages (e.g. Java),  did not return method implementations, only the abstract declaration,
+      when searching for a bare method name
+* `Move`, `Rename`: 
+    * Operations did not always disable search in strings and comments, causing the IDE to prompt a user dialog for review
+    * Fix: The verification of whether move succeeded did not wait for the IDE to be ready
+    * Auto-import missing symbols after move (not automatically handled by the IDE)
+* Fix: Symbol lookups did not enforce absolute name paths, causing some lookups to fail to retrieve the unique symbol
+* Improve determination of relative paths in certain contexts (e.g. in some Kotlin projects)
+
 # 2023.2.16 (2026-04-24)
 
 * Support new tool: `Debug` (supports interactive debugging sessions via a persistent REPL)
@@ -76,7 +93,7 @@ Major extensions, including several beta features
 * Use listen address 127.0.0.1 for the service
 * Fix use of deprecated/internal JetBrains APIs
 
-# 2023.2.3 (2024-12-24)
+# 2023.2.3 (2025-12-24)
 
 * Improved symbols overview, adding depth parameter
 * Reduce tasks running on the event dispatch thread (EDT) to a minimum
