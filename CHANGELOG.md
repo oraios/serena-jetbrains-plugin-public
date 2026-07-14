@@ -28,7 +28,14 @@
 Major extensions, including several beta features
 
 * Rename can now be applied to files and directories
-* Support the following new tools: `Move`, `InlineSymbol`, `FindDefinition`, `FindImplementation`, `SafeDelete`
+* Support the following new tools: 
+  - `Move`
+  - `InlineSymbol`
+  - `FindDefinition`
+  - `FindImplementation`
+  - `SafeDelete`
+  - `ListInspections`
+  - `RunInspections`
 
 # 2023.2.13 (2026-03-25)
 
