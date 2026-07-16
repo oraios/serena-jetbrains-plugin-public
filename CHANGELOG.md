@@ -1,3 +1,9 @@
+# 2023.3.2 (2026-07-16)
+
+* `RunInspections`:
+  - Fix: Inspections were incomplete for some languages (e.g. Java)
+  - Streamline the output format
+
 # 2023.3.1 (2026-07-12)
 
 * Changes to IDE version support:
