@@ -1,3 +1,14 @@
+# 2023.3.3 (2026-07-23)
+
+* `FindSymbol`: 
+  - Fix: A stub was sometimes returned for the symbol body instead of the actual source
+    in the case of (decompiled) symbols in dependencies/external files
+  - Fix: File symbols could be part of the result when searching with wildcards 
+* New `ReadFile` endpoint: read a file's text by path, including `<ext:...>` handles for files outside the
+  project (dependency/library sources), resolving to attached source when present
+* `GetSymbolsOverview` and `FindDeclaration` now accept `<ext:...>` handles (via the shared file resolver), so
+  dependency/library files can be inspected the same way project files are (previously only `FindSymbol` did)
+
 # 2023.3.2 (2026-07-16)
 
 * `RunInspections`:
