@@ -1,3 +1,8 @@
+# 2023.3.4 (2026-09-08)
+
+* `FindReferences`: Fix line number retrieval failure owing to execution context (outside of a read action)
+* `RunInspections`: Be more lenient regarding the provided `endLine` parameter (clamp to end of document if too large)
+
 # 2023.3.3 (2026-07-23)
 
 * `FindSymbol`: 
